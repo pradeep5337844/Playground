@@ -1,0 +1,58 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+ int r,c,i,j,sum;
+
+ int a[10][10];
+
+ int b[10][10];
+
+ cin>>r>>c;
+
+ for(i=0;i<r;i++)
+
+ {
+
+   for(j=0;j<c;j++)
+
+   {
+
+     cin>>a[i][j];
+
+   }
+ }
+    for(i=0;i<r;i++)
+
+ {
+
+   for(j=0;j<c;j++)
+
+   {
+
+     cin>>b[i][j];
+
+   }
+
+ }
+
+ for(i=0;i<r;i++)
+
+ {
+
+   for(j=0;j<c;j++)
+
+   {
+    sum =a[i][j]+b[i][j];
+     cout<<sum<<" ";
+
+   }
+
+   cout<<"\n";
+
+ }
+}
